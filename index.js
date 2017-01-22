@@ -26,19 +26,17 @@ async.each(users, function (user, next) {
       if (err) return next(err)
       // otherwise compile template and save
       fs.writeFile(config.distDir + 'result-' + i + '.html', result.html, function (err) {
-        // early return if error
         if (err) return console.log(err)
-        // file was saved
-        console.log("The file was saved!" + i );
-        // i = i + 1
       })
+      // compile text version
+      fs.writeFile(config.distDir + 'result-' + i + '.txt', result.text, function (err) {
+        if (err) return console.log(err)
+      })
+      // iterate
       i = i + 1
-      // result.html
-      // result.text
-      // result.subject
     })
   },
   function (err) {
-    //
+    return console.log(err)
   }
 )
