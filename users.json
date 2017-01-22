@@ -1,11 +1,13 @@
 {
   "mails": [
     {
-      "name": "Michael Czechowski",
+      "sex": "m",
+      "name": "Herr Czechowski",
       "mail": "mail@dailysh.it"
     },
     {
-      "name": "Bunte Bildung - Freie Bildung",
+      "sex": "f",
+      "name": "Initiative Bunte Bildung - Freie Bildung",
       "mail": "info@buntebildung-freiebildung.de"
     }
   ]

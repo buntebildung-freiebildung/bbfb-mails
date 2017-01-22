@@ -6,7 +6,9 @@
   "dependencies": {
     "consolidate": "^0.14.5",
     "email-templates": "^2.5.4",
-    "handlebars": "^4.0.6"
+    "fs": "0.0.1-security",
+    "handlebars": "^4.0.6",
+    "node-sass": "^4.3.0"
   },
   "devDependencies": {},
   "scripts": {

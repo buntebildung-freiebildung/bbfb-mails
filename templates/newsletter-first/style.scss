@@ -1,0 +1,38 @@
+$background: #d6d6d6;
+$white: #fff;
+
+html,
+div,
+p,
+h1,
+h2,
+h3,
+span,
+b,
+strong,
+a {
+  font-family: 'Helvetica Neue Light', Helvetica, Arial, sans-serif
+}
+
+html {
+  background: $background;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+table {
+  padding: 80px;
+  background: $white;
+  max-width: 800px;
+  min-width: 360px;
+  width: 80%;
+}
+
+.space {
+  margin-top: 32px;
+}
+
+.subtitle {
+  font-size: 30px;
+}

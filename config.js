@@ -6,7 +6,7 @@ module.exports = (function() {
   
   var config = {
     usersDir: base + 'users.json',
-    excludedBowerComponents: ['es5-shim', 'json3', 'bootstrap-sass', 'jquery']
+    distDir: base + 'dist/'
   };
   
   return config;
