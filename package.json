@@ -1,0 +1,26 @@
+{
+  "name": "bbfb-mails",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "consolidate": "^0.14.5",
+    "email-templates": "^2.5.4",
+    "handlebars": "^4.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "compile": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/buntebildung-freiebildung/bbfb-mails.git"
+  },
+  "author": "Michael Czechowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/buntebildung-freiebildung/bbfb-mails/issues"
+  },
+  "homepage": "https://github.com/buntebildung-freiebildung/bbfb-mails#readme"
+}
