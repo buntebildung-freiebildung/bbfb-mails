@@ -2,7 +2,6 @@ var config = require('./config');
 
 var EmailTemplate = require('email-templates').EmailTemplate
 var path = require('path')
-var _ = require('lodash')
 var Handlebars = require('handlebars')
 var async = require('async')
 var fs = require('fs')
