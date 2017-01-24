@@ -1,0 +1,23 @@
+.footer {
+  $this-color: darken($background, 40%);
+
+  @include container();
+
+  color: $this-color;
+  text-align: center;
+  font-size: 80%;
+
+  p {
+    color: $this-color;
+    text-align: center;
+  }
+
+  a {
+    color: $this-color;
+
+    &:hover,
+    &:focus {
+      color: darken($this-color, 20%);
+    }
+  }
+}

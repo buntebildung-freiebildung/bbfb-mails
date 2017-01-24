@@ -1,7 +1,11 @@
+var config      = require('./config');
+
 var gulp        = require('gulp');
 var browserSync = require('browser-sync').create();
 var shell       = require('gulp-shell');
 var runSequence = require('run-sequence').use(gulp);
+
+var distDir = config.distDir + config.templateDir
 
 gulp.task('default', function(callback) {
   runSequence(
@@ -23,7 +27,7 @@ gulp.task('precompile', shell.task([
 gulp.task('serve', function() {
   browserSync.init({
     server: {
-      baseDir: './dist/',
+      baseDir: distDir,
       index: 'result-0.html'
     }
   });

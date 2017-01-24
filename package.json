@@ -8,6 +8,7 @@
     "email-templates": "^2.5.4",
     "fs": "0.0.1-security",
     "handlebars": "^4.0.6",
+    "mkpath": "^1.0.0",
     "node-sass": "^4.3.0",
     "nodemailer": "^2.7.2"
   },
@@ -19,9 +20,9 @@
     "run-sequence": "^1.2.2"
   },
   "scripts": {
-    "compile": "node compile.js",
+    "send": "node send.js",
     "precompile": "node precompile.js",
-    "dev": "gulp"
+    "dev": "gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

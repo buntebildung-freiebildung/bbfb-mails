@@ -1,39 +1,52 @@
-$background: #d6d6d6;
-$white: #fff;
-
-html,
-div,
-p,
-h1,
-h2,
-h3,
-span,
-b,
-strong,
-a {
-  font-family: 'Helvetica Neue Light', Helvetica, Arial, sans-serif
-}
-
-html {
-  background: $background;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-}
+@import "../variables";
+@import "../mixins";
+@import "../base";
+@import "../module.header";
+@import "../module.footer";
 
 table {
-  margin: 0 auto;
-  padding: 50px;
-  background: $white;
-  max-width: 800px;
-  min-width: 360px;
-  width: 80%;
+  &.outer {
+    width: 100%;
+    padding: 30px;
+    background: $background;
+  }
+
+  &.inner {
+    background: $white;
+    border: 1px solid darken($background, 10%);
+    border-radius: 5px;
+
+    @include container();
+  }
 }
 
 .space {
   margin-top: 32px;
 }
 
-.subtitle {
-  font-size: 30px;
+.button {
+  background-color: $secondary;
+  color: $white;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+  font-size: 32px;
+  font-weight: bold;
+  cursor: pointer;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 8px 16px;
+  margin: 0 0 20px;
+  text-decoration: none;
+  -webkit-appearance: none;
+
+  small {
+    display: block;
+    font-size: 40%;
+    margin-top: 8px;
+    text-transform: none;
+    font-weight: normal;
+  }
 }
