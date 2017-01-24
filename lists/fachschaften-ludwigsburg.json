@@ -1,0 +1,99 @@
+{
+  "mails": [
+    {
+      "sex": "f",
+      "name": "Fachschaft Biologie",
+      "mail": "biofachschaft-lb@gmx.de"
+    },
+    {
+      "sex": "f",
+      "name": "Fachschaft Chemie",
+      "mail": "chemie.phl@gmx.de"
+    },
+    {
+      "sex": "f",
+      "name": "Fachschaft Deutsch",
+      "mail": "fachschaftdeutsch@ph-ludwigsburg.de"
+    },
+    {
+      "sex": "f",
+      "name": "Fachschaft Englisch",
+      "mail": "englischfachschaft-lubu@web.de"
+    },
+    {
+      "sex": "f",
+      "name": "Fachschaft Ethik",
+      "mail": "fs-Ethik.phl@gmx.de"
+    },
+    {
+      "sex": "f",
+      "name": "Fachschaft Erwachsenenbildung",
+      "mail": "fachschaft-erwachsenenbildung-lb@ph-ludwigsburg.de"
+    },
+    {
+      "sex": "f",
+      "name": "Fachschaft Frühkindliche Bildung und Erziehung",
+      "mail": "fruebifachschaft@ph-ludwigsburg.de"
+    },
+    {
+      "sex": "f",
+      "name": "Fachschaft Geographie",
+      "mail": "geo-fachschaft@web.de"
+    },
+    {
+      "sex": "f",
+      "name": "Fachschaft Geschichte",
+      "mail": "geschichtefachschaft@yahoo.de"
+    },
+    {
+      "sex": "f",
+      "name": "Fachschaft Informatik",
+      "mail": "informatikfachschaftph@web.de"
+    },
+    {
+      "sex": "f",
+      "name": "Fachschaft Kultur- und Medienbildung",
+      "mail": "kumebi@gmx.de"
+    },
+    {
+      "sex": "f",
+      "name": "Fachschaft Kunst",
+      "mail": "kunstfachschaft.phlb@web.de"
+    },
+    {
+      "sex": "f",
+      "name": "Fachschaft Mathematik",
+      "mail": "mathefachschaftphlb@gmail.com"
+    },
+    {
+      "sex": "f",
+      "name": "Fachschaft Musik",
+      "mail": "fachschaft_musik-lb@ph-ludwigsburg.de"
+    },
+    {
+      "sex": "f",
+      "name": "Fachschaft Sonderpädagogik",
+      "mail": "fachschaft-sonderpaedagogik-lb@web.de"
+    },
+    {
+      "sex": "f",
+      "name": "Fachschaft Politik",
+      "mail": "fachschaft.politik@gmx.de"
+    },
+    {
+      "sex": "f",
+      "name": "Fachschaft Sport",
+      "mail": "sportfachschaft@ph-ludwigsburg.de"
+    },
+    {
+      "sex": "f",
+      "name": "Fachschaft Technik",
+      "mail": "fachschaft.technik@gmail.com"
+    },
+    {
+      "sex": "f",
+      "name": "Fachschaft Theologie",
+      "mail": "fachschaft.theologie@gmail.com"
+    }
+  ]
+}

@@ -7,7 +7,7 @@ var async = require('async')
 var fs = require('fs')
 var mkpath = require('mkpath')
 
-var users = require(config.usersDir).mails
+var users = require(config.listsDir + config.usersList).mails
 var templateDir = path.join(__dirname, 'templates', config.templateDir)
 var template = new EmailTemplate(templateDir)
 var distDir = config.distDir + config.templateDir

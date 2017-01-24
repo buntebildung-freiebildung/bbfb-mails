@@ -1,0 +1,57 @@
+{
+  "mails": [
+    {
+      "sex": "f",
+      "name": "Fakultät Betriebswirtschaft und Internationale Finanzen",
+      "mail": "fbf@hfwu‎.‎de"
+    },{
+      "sex": "m",
+      "name": "Herr Reinert",
+      "mail": "joachim.reinert@hfwu‎.‎de"
+    },{
+      "sex": "f",
+      "name": "Fachschaft der Fakultät Betriebswirtschaft und Internationale Finanzen",
+      "mail": "fachschaft-fbf@hfwu‎.‎de"
+    },{
+      "sex": "m",
+      "name": "Herr Froese",
+      "mail": "froesed@stud.hfwu‎.‎de"
+    },{
+      "sex": "f",
+      "name": "Frau Hoxha",
+      "mail": "hoxhal@stud.hfwu‎.‎de"
+    },{
+      "sex": "f",
+      "name": "Frau Schelle",
+      "mail": "schellem@stud.hfwu‎.‎de"
+    },{
+      "sex": "f",
+      "name": "Frau Brose",
+      "mail": "brosek@stud.hfwu‎.‎de"
+    },{
+      "sex": "f",
+      "name": "Frau Ziegler",
+      "mail": "zieglersa@stud.hfwu‎.‎de"
+    },{
+      "sex": "f",
+      "name": "Frau Weigel",
+      "mail": "weigelj@stud.hfwu‎.‎de"
+    },{
+      "sex": "f",
+      "name": "Fakultät Agrarwirtschaft, Volkswirtschaft und Management",
+      "mail": "dekanat-favm@hfwu‎.‎de"
+    },{
+      "sex": "f",
+      "name": "Fakultät Landschaftsarchitektur, Umwelt- und Stadtplanung",
+      "mail": "flus@hfwu‎.‎de"
+    },{
+      "sex": "f",
+      "name": "Fakultät Wirtschaft und Recht",
+      "mail": "fwr@hfwu‎.‎de"
+    },{
+      "sex": "f",
+      "name": "Frau Kunz",
+      "mail": "sandra.kunz@hfwu.de"
+    }
+  ]
+}
