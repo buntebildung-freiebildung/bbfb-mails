@@ -1,0 +1,36 @@
+.space {
+  margin-top: 32px;
+}
+
+.button {
+  background-color: $secondary;
+  color: $white;
+  text-transform: uppercase;
+  display: inline-block;
+  text-align: center;
+  line-height: 1;
+  font-size: 32px;
+  font-weight: bold;
+  cursor: pointer;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  padding: 16px 48px;
+  margin: 0 0 20px;
+  text-decoration: none;
+  -webkit-appearance: none;
+
+  small {
+    display: block;
+    font-size: 40%;
+    margin-top: 8px;
+    text-transform: none;
+    font-weight: normal;
+  }
+}
+
+.img {
+  &-shadow {
+    box-shadow: 0 0 12px rgba($black, 0.4);
+  }
+}

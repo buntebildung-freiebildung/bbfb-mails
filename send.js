@@ -7,8 +7,8 @@ var async = require('async')
 var fs = require('fs')
 var nodemailer = require('nodemailer')
 
-var users = require(config.usersDir).mails
-var templateDir = path.join(__dirname, 'templates', 'newsletter-first')
+var users = require(config.listsDir + config.usersList).mails
+var templateDir = path.join(__dirname, 'templates', config.templateDir)
 var template = new EmailTemplate(templateDir)
 
 // additional function for handlebar templates (conditional if)
@@ -42,6 +42,6 @@ async.each(users, function (user, next) {
     })
   },
   function (err) {
-    return console.log(err)
+    if (err) return console.log(err)
   }
 )

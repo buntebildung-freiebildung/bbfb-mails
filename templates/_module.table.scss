@@ -1,0 +1,15 @@
+table {
+  &.outer {
+    width: 100%;
+    padding: 30px;
+    background: $background;
+  }
+
+  &.inner {
+    background: $white;
+    border: 1px solid darken($background, 10%);
+    border-radius: 5px;
+
+    @include container();
+  }
+}
